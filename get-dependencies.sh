@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm protobuf qt6-5compat
+pacman -Syu --noconfirm protobuf qt6-5compat qt6-svg
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
